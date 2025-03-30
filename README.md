@@ -1,6 +1,6 @@
 # Smart-Glove
 
-For more details and files, please see [https://jacoo-ai.github.io/Smart-Glove](https://)
+For more details and files, please see [https://jacoo-ai.github.io/Smart-Glove](https://jacoo-ai.github.io/Smart-Glove)
 
 ## Project Overview
 
