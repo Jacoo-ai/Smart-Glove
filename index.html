@@ -1,0 +1,85 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: tangshiyi
+ * @Date: 2025-03-30 13:36:31
+ * @LastEditors: tangshiyi
+ * @LastEditTime: 2025-03-30 13:47:11
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart-Glove Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #007acc;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Smart-Glove for Fist Dance</h1>
+
+    <h2>Project Overview</h2>
+    <p>
+      This project tackles real-time hand gesture prediction to create immersive rhythm-based interactive experiences.
+      We developed <strong>Fist Dance</strong>, a music-driven game combining "Rock, Paper, Scissors"-like gestures with directional movements.
+    </p>
+    <p>
+      The system features a wearable glove with five flex sensors and an IMU to capture finger positions and hand orientation.
+      A dataset of over <strong>80,000 samples</strong> from 10 users was collected and labeled using a beat-aligned sliding window method.
+      A three-layer LSTM model was trained in stages: large-scale pretraining, user-specific finetuning, and hardware adaptation.
+      Final accuracy reached <strong>93%</strong>, with <strong>93.9%</strong> precision—even after sensor replacements.
+    </p>
+
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://github.com/Jacoo-ai/Smart-Glove" target="_blank">🔗 GitHub Repository</a></li>
+      <li><a href="https://github.com/Jacoo-ai/Smart-Glove/blob/main/collected_data.zip" target="_blank">📦 Download Collected Data (.zip)</a></li>
+      <li><a href="https://github.com/Jacoo-ai/Smart-Glove/blob/main/FistDance-final-pre.pptx" target="_blank">📑 Presentation Slides (.pptx)</a></li>
+      <li><a href="https://youtu.be/EFmjFo0SKPE" target="_blank">🎬 Project Demo Video</a></li>
+    </ul>
+
+    <p><a href="https://github.com/Jacoo-ai/Smart-Glove" class="button" target="_blank">View Code on GitHub</a></p>
+  </div>
+</body>
+</html>
