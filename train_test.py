@@ -92,6 +92,7 @@ def get_data(df):
     return X,y,scaler
 
 X,y,scaler = get_data(df_data)
+X_test,y_test,scalar= get_data(df_test)
 from collections import Counter
 # Counter(y)
 
